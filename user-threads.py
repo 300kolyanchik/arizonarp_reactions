@@ -13,7 +13,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import telebot
 
-account = ["login", "password"]
+account = ["Aniki", "Iskrun123"]
 check = "https://forum.arizona-rp.com/search/"
 
 options = webdriver.ChromeOptions()
@@ -150,4 +150,4 @@ def dis_reaction():
 login_to_acc(account)
 time.sleep(3)
 dis_reaction()
-#find_by_search("https://forum.arizona-rp.com/search/4926174/", True)
+#find_by_search("https://forum.arizona-rp.com/members/1118115/", True)
